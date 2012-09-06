@@ -1,0 +1,19 @@
+name: DiamondBOOM -NEG variant
+main: to.us.diamondcraft.DiamondBOOM_NEG_variant
+version: 1.0
+
+description: Blow up players with a single command, and prevent creeper, enderman/dragon, tnt, /boom, etc damage! TNT cannons/launchers will still work!
+author: gauso001
+website: http://www.diamondcraft.us.to/
+
+database: false
+
+commands:
+  diamondboom:
+    description: ignite the player specified
+    usage: |
+           DiamondBOOM -NEG variant V1.0 by gauso001     /boom targetplayer will blow up player "targetplayer". This plugin will also prevent creeper, enderman/dragon, tnt, /boom, etc damage, but TNT cannons/launchers will still work!
+  boom:
+    description: blow up the player specified (Same as DiamondBOOM)
+    usage: |
+           BOOM, block-damage free!
